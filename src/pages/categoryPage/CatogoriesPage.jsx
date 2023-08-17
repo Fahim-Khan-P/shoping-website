@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import CategoryCard from '../../components/categories/CategoryCard';
+import CategoryCard from '../../components/category/categoryCard/CategoryCard.jsx';
 
 function CategoriesPage() {
   return (

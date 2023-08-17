@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Header.css';
 import logo from '../../assets/logo1.png';
 
@@ -14,8 +15,8 @@ const Header = () => {
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">
           <Nav className="ms-auto d-flex gap-4">
-            <Nav.Link href="#" className="nav-link">Login</Nav.Link>
-            <Nav.Link href="#" className="nav-link">Signup</Nav.Link>
+            <Nav.Link as={Link} to="/sign_in" className="nav-link">Login</Nav.Link>
+            <Nav.Link as={Link} to="/sign_up" href="#" className="nav-link">Signup</Nav.Link>
             <Nav.Link href="#" className="nav-link">Post Ad</Nav.Link>
             <Nav.Link href="#" className="nav-link">Request Post</Nav.Link>
           </Nav>
