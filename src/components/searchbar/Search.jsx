@@ -7,7 +7,8 @@ function Search() {
     <div className="search-bar">
       <input type="text" placeholder="Search" className="form-control search-input" />
       <button className="btn btn-primary search-button">
-        <FaSearch />
+        <FaSearch className='m-1'/>
+        Search
       </button>
     </div>
   );

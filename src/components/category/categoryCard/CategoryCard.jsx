@@ -4,7 +4,7 @@ import styles from './Category.module.css';
 
 function CategoryCard() {
   return (
-    <div className={`card ${styles['category-card']}`} style={{ width: '10rem' }}>
+    <div className={`card ${styles['category-card']}`} style={{ width: '8rem' }}>
       <img src={logo} className="card-img-top" alt="..." />
       <div className="card-body">
         <h5 className="card-title text-center">Fashion</h5>

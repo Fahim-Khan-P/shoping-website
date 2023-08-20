@@ -11,7 +11,7 @@
   color: #333;
 }
 
-.nav-link {
+/* .nav-link {
   font-size: 1rem;
   color: #555 !important;
   transition: color 0.3s ease;
@@ -33,4 +33,4 @@
 
 .nav-link:hover::after {
   width: 100%;
-}
+} */

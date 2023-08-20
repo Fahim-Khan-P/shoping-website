@@ -11,7 +11,7 @@ function LandingPage() {
   return (
     <div>
       <Header />
-      <div className={`${styles.landingPage} py-5`}>
+      <div className={`${styles.landingPage} py-2 pb-4`}>
         <Container>
           <Row className="justify-content-center d">
             <Col md={6} className="text-center mt-4">

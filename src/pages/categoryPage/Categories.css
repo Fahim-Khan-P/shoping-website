@@ -1,0 +1,7 @@
+@media (min-width: 992px) {
+  .col-lg-1 {
+    flex: 0 0 auto;
+    width: 14.285714%; /* Set your desired width here */
+    margin-bottom: 10px; /* Adjust the margin-bottom as needed */
+  }
+}
